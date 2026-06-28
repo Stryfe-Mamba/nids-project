@@ -1,0 +1,9 @@
+# NIDS Project Dependencies
+# Install via: sudo apt install python3-scapy python3-flask 
+#              python3-yaml python3-colorama python3-flask-socketio
+
+scapy>=2.7.0
+flask>=3.1.0
+pyyaml>=6.0.0
+colorama>=0.4.0
+flask-socketio>=5.0.0

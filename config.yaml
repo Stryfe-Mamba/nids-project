@@ -1,0 +1,36 @@
+# ============================================
+# NIDS Configuration File
+# ============================================
+
+network:
+  interface: "eth0"
+  promiscuous: true
+
+thresholds:
+  port_scan:
+    max_ports: 15
+    time_window: 10
+
+  syn_flood:
+    max_syns: 100
+    time_window: 1
+
+  icmp_flood:
+    max_packets: 5
+    time_window: 1
+
+logging:
+  log_file: "logs/nids.log"
+  log_level: "INFO"
+  max_file_size_mb: 10
+  backup_count: 5
+
+alerts:
+  console: true
+  log_file: true
+  colors: true
+
+dashboard:
+  enabled: false
+  host: "127.0.0.1"
+  port: 5000
