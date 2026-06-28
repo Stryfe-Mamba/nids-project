@@ -1,16 +1,4 @@
-# Let's Create a Professional README.md! 🚀
 
-## First — Remove the Old One and Start Fresh:
-
-```bash
-cd ~/nids_project
-rm README.md
-nano README.md
-```
-
-Type this entire content:
-
-```markdown
 # 🛡️ PyNIDS — Python Network Intrusion Detection System
 
 ![Python](https://img.shields.io/badge/Python-3.13-blue)
